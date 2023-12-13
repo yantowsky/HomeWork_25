@@ -38,9 +38,13 @@ apartmentTwo.addResident(personTwo);
 apartmentThree.addResident(personThree);
 
 const houseOne = new House(2);
+const houseTwo = new House(2);
 
 console.log(houseOne);
+console.log(houseTwo);
 
 houseOne.addApartment(apartmentOne);
 houseOne.addApartment(apartmentTwo);
 houseOne.addApartment(apartmentThree);
+
+houseTwo.addApartment(apartmentThree);
